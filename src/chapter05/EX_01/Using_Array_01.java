@@ -37,28 +37,28 @@ public class Using_Array_01 {
 		System.out.println("----- for문을 사용해서 배열 방의 값을 출력하기 -----");
 		// for문을 사용해서 출력
 		for(int i=0; i<5; i++) {
-			System.out.println(a[i]);
+			System.out.print(a[i]+" ");
 		}
 		
-		System.out.println("배열변수 a의 방의 개수: " + a.length);   // 배열 방의 총 개수를 출력
+		System.out.println("\n"+"배열변수 a의 방의 개수: " + a.length);   // 배열 방의 총 개수를 출력
 		
 		System.out.println("----- for문에서 *.length를 사용해서 출력 -----");
 		for(int i=0; i<a.length; i++) {
-			System.out.println(a[i]);
+			System.out.print(a[i]+" ");
 		}
 		
-		System.out.println(a);   // Heap RAM(메모리)의 주소를 나타냄
+		System.out.println("\n"+a);   // Heap RAM(메모리)의 주소를 나타냄
 		
 		System.out.println("----- 향상된 for문을 사용해서 출력하기 -----");
 		// 향상된(enhanced) for문으로 배열의 모든 값을 출력
 		// 		- 배열의 모든 방을 순환하며 출력
 		// 		- 배열의 모든 값을 한꺼번에 출력
 		for(int k : a) {
-			System.out.println(k);   // 10 20 30 40 50
+			System.out.print(k+" ");   // 10 20 30 40 50
 		}
 		
 		// Arrays.toString(a)으로 출력 
-		System.out.println("----- Arrays.toString(a) -----");
+		System.out.println("\n"+"----- Arrays.toString(a) -----");
 		
 		System.out.println(Arrays.toString(a));   // [10, 20, 30, 40, 50]
 		

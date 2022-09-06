@@ -27,28 +27,31 @@ public class Using_Array_02 {
 		// 3. 배열 방의 값을 출력
 		System.out.println("----- 직접 출력 -----");
 		// 	- (1) 직접 출력
-		System.out.println(d[1]);
+		System.out.println(d[1]);		// 20.5 출력
 		System.out.println(d.length);   // 배열 방의 개수: 6 출력
 		
 		System.out.println("----- for문을 사용해서 출력 -----");
 		// 	- (2) for문을 사용해서 출력
 		for(int i=0; i<d.length; i++) {
-			System.out.println(d[i]);   // 10.5 20.5 30.5 40.5 50.5 60.5
+			System.out.print(d[i]+" ");   // 10.5 20.5 30.5 40.5 50.5 60.5
 		}
 		
-		System.out.println("-----");
+		System.out.print("\n"+"----- for문을 사용해 원하는 값만 출력하기 -----");
 		
 		// for문을 사용하면 원하는 방의 값만 출력할 수 있다.
+		System.out.println();
 		
 		for(int i=3; i<6; i++) {
-			System.out.println(d[i]);   // 40.5 50.5 60.5 
+			System.out.print(d[i]+"\n");   // 40.5 50.5 60.5 
 		}
 		
 		System.out.println("----- 향상된 for문을 사용해서 출력 -----");
 		// 	- (3) 향상된 for문을 사용해서 출력
 		for(double k : d) {
-			System.out.println(k);   // 10.5 20.5 30.5 40.5 50.5 60.5
+			System.out.print(k+" ");   // 10.5 20.5 30.5 40.5 50.5 60.5
 		}
+		
+		System.out.println();
 		
 		System.out.println("----- Arrays.toString(d) -----");
 		// 	- (4) Arrays.toString(*)을 사용해서 출력
