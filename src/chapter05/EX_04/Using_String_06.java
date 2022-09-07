@@ -31,17 +31,20 @@ public class Using_String_06 {
 		// split(): 특정 문자를 기준으로 잘라서 배열에 저장(★배열 선언 필요★)
 			// /, -, 공백을 기준으로 잘라서 strArr1 배열 변수에 저장함 
 		String[]strArr1 = "abc/def-ghi jkl".split("/|-| ");
+		// 해결해보자
 		
 		System.out.println("----- for문 -----");
 		for(int i=0; i<strArr1.length; i++) {
 			System.out.print(strArr1[i]+" ");										// abc def ghi jkl 출력
 		}
 		
+		System.out.println();
 		System.out.println("----- Enhanced for문 -----");
 		for(String k : strArr1) {
 			System.out.print(k+" ");												// abc def ghi jkl 출력
 		}
 		
+		System.out.println();
 		System.out.println("----- Arrays for문 -----");
 		System.out.println(Arrays.toString(strArr1));								// [abc, def, ghi, jkl] 출력
 		

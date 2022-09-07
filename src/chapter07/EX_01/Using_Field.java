@@ -25,9 +25,9 @@ class A{
 public class Using_Field {
 
 	public static void main(String[] args) {
-		
+		System.out.println("----- 객체 생성 -----");
 		// 객체 생성
-		A a = new A();							// 기본 생성사 호출, 생략되어 있음
+		A a = new A();							// 기본 생성자 호출, 생략되어 있음
 		
 		// 필드값 출력
 		System.out.println(a.m);				// 3 출력
