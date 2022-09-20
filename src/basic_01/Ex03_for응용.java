@@ -59,7 +59,7 @@ public class Ex03_for응용 {
 		}
 
 		System.out.println("--- [문제3] ---");
-			
+			 
 		/* [문제3]
 		ABCDEFGHIJKLMNOPQRSTUVWXYZ
 		BCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -105,14 +105,14 @@ public class Ex03_for응용 {
 		
 		/* [문제5]
 		ABCDEFGHIJKLMNOPQRSTUVWXYZ
-  		BCDEFGHIJKLMNOPQRSTUVWXYZ
-    	CDEFGHIJKLMNOPQRSTUVWXYZ
-      	DEFGHIJKLMNOPQRSTUVWXYZ
-       	:
-        WXYZ
-        XYZ
-        YZ
-        Z 
+  		 BCDEFGHIJKLMNOPQRSTUVWXYZ
+    	  CDEFGHIJKLMNOPQRSTUVWXYZ
+      	   DEFGHIJKLMNOPQRSTUVWXYZ
+       				:
+        					  WXYZ
+        					   XYZ
+        						YZ
+        						 Z 
 		*/
 		
 		
