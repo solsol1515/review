@@ -15,7 +15,7 @@ public class Ex03_구글입사문제 {
 				if(na==8) {							// na가 8일 경우 true → if문 실행
 					count++;						// └ count의 값이 1씩 증가
 				}
-				su = su/10;							// ??? 다시 한번 생각해보기
+				su = su/10;							// while문을 빠져나가기 위한 장치 (10으로 나눠 su값을 0으로 만들어 while문을 탈출할 수 있다)
 			}
 			
 		}

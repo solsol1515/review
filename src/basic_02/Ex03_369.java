@@ -28,7 +28,8 @@ public class Ex03_369 {
 					System.out.print("짝");				// 10으로 나눴을 때 나머지 3, 6, 9일 때 → '참'
 					su369 = true;						// false → true
 				}
-				su = su/10;								// ??? 다시 생각해보기 10으로 나눴을 때의 몫 값
+				su = su/10;								// 다시 생각해보기 10으로 나눴을 때의 몫 값(su를 0이 될 때까지 만들어서 while문을 빠져나가게 만듦)
+				// ex) 23일 때 na를 3으로 만들고 su값은 2가 됨 → su 값이 2가 되어 while문을 재작동 → su = 2/10이 되어 su의 값은 0이됨 → while문 탈출 
 			}	
 			if(su369) System.out.println();				// 나머지 값이 3, 6, 9인 경우 → 참 → 한 줄 띄고, 다시 for문 실행
 			else System.out.println(i);					// 나머지 값이 3, 6, 9가 아닌 경우 → 숫자 i 출력
