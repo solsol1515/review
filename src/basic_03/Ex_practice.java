@@ -16,7 +16,7 @@ public class Ex_practice {
 		// String sc_input = sc.nextLine();			// 입력받은 문자를 sc_input에 저장
 		
 		// String ch = sc_input;
-		ch = checkLower();
+		// ch = checkLower();
 	}
 	static boolean checkLower(char ch) {
 		boolean b = false;
