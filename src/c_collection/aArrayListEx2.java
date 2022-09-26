@@ -6,7 +6,7 @@ import java.util.Collections;
 public class aArrayListEx2 {
 	public static void main(String[] args) 
 	{
-		ArrayList<String>  list = new ArrayList<String>(4);
+		ArrayList<String>  list = new ArrayList<String>();
 		list.add("rabbit");  
 		list.add("zebra");
 		list.add("squirrel");
@@ -18,10 +18,10 @@ public class aArrayListEx2 {
 		list.set(3, "tiger");
 		System.out.println(list);	// fox → tiger로 덮어씌움
 		
-		list.remove(1);		// zebra 삭제 
+		list.remove(1);				// zebra "삭제"
 		System.out.println(list);
 		
-		Collections.sort(list);
+		Collections.sort(list);		// 오름차순 정렬
 		System.out.println(list);
 		
 		// System.out.println(list);
@@ -33,7 +33,7 @@ public class aArrayListEx2 {
 		
 		// 향상된 for문
 		for(String data: list) {		// 출력할 변수 : 집합
-			System.out.print(data+" ");	// generics가 있어야 형변환하는 코딩 생략 가능
+			System.out.print(data+",");	// generics가 있어야 형변환하는 코딩 생략 가능
 		}
 	}
 }

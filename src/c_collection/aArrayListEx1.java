@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 class aArrayListEx1
 {
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		dataSet();
 		ArrayList result = dataSet();
 		// dataSet() 안의 변수 값들을 여기서 출력한다면??

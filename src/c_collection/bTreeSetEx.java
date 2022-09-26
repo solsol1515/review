@@ -17,7 +17,7 @@ public class bTreeSetEx
 		set.add("zebra");
 		set.add("bee");
 		
-		System.out.println(set);
+		System.out.println(set);						
 		System.out.println(set.subSet("d", "s") );		// d~s의 앞까지
 		System.out.println(set.headSet("e"));			// e의 앞까지
 		System.out.println(set.tailSet("e"));			// e부터 끝까지

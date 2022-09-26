@@ -5,7 +5,7 @@ public class bHashSetEx
 {
 	public static void main(String[] args)
 	{
-		HashSet<String> set = new HashSet<String>();		// 순서 없음
+		HashSet<String> set = new HashSet<String>();		// 순서 없음 → 중복되는 값인 elephant와 zebra가 몇 번째의 것이 출력된 것인지 알 수 없음. 
 		set.add("rabbit");
 		set.add("zebra");
 		set.add("fox");

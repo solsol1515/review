@@ -16,7 +16,7 @@ public class bHashSetLottoEx
 		System.out.println(lottos);
 		
 		ArrayList list = new ArrayList(lottos);		
-		Collections.sort(list);
+		Collections.sort(list);						// 오름차순으로 정렬
 		System.out.println(list);					// 정렬해서 출력
 		
 	}
